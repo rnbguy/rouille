@@ -36,7 +36,7 @@ trait Rouille {
 
     fn replace_stream(ts: TokenStream, out: &mut Vec<TokenTree>) {
         for tok in ts {
-            Self::replace_tree(tok, out)
+            Self::replace_tree(tok, out);
         }
     }
 
