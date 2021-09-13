@@ -60,3 +60,6 @@ macro_rules! oxydation {
 
 #[cfg(feature = "francais")]
 oxydation!(rouille, traducteur::francais::Francais::rouille);
+
+#[cfg(feature = "italiano")]
+oxydation!(ruggine, traducteur::italiano::Italiano::rouille);

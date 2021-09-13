@@ -4,9 +4,12 @@
 /// Then add it to `[features]` list in `Cargo.toml`
 /// and define the module here with cfg attribute. Example,
 /// ```ignore
-/// #[cfg(feature = "italiano")]
-/// pub mod italiano
+/// #[cfg(feature = "espanol")]
+/// pub mod espanol
 /// ```
 
 #[cfg(feature = "francais")]
 pub mod francais;
+
+#[cfg(feature = "italiano")]
+pub mod italiano;

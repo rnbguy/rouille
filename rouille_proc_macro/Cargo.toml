@@ -8,8 +8,9 @@ edition = "2018"
 [dependencies]
 
 [features]
-default = ["francais"]
+default = ["francais", "italiano"]
 francais = []
+italiano = []
 
 [lib]
 proc-macro = true
